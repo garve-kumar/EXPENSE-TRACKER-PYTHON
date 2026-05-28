@@ -1,0 +1,14 @@
+momos - 3000
+cloth - 8000
+momos - 500000
+cloth - 7000000
+momos 2000000 - 6000000000000
+cloth 7000000000 - 700000000000
+momos - 30000
+cloth 50000 - 300000
+ice  - 30000000
+momos - 30000
+girlfriend - 5000000
+cloth - 300000
+music - 500000
+3 - 0
