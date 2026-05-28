@@ -18,7 +18,7 @@ while True:
        file.write(name + " - " + str(amount) + "\n")
        file.close()
        print("Expense added successfully")
- if a == 2:
+ elif a == 2:
        print("you selected view expense")
        file = open("expenses.txt", "r")
        data = file.read()
@@ -27,12 +27,12 @@ while True:
        for expense in expenses:
           print("Expense Name: ", expense["name"])
           print("Expense Amount", expense['amount'])
- if a == 3:
+ elif a == 3:
          total = 0
          for expense in expenses:
                total = total + expense["amount"]
          print("Total  expense: ", total)
- if a == 4:
+ elif a == 4:
         if len(expenses) == 0:
             print("NO expense to delete")
         else:
@@ -42,9 +42,12 @@ while True:
                  expenses.pop(delete_index - 1)
                  print("Expense Deleted Successfully")
                 
- if a == 5:
+ elif a == 5:
    print("Exiting Program....")
- break
+   break  
+ else:
+      print("Invalid choice")
+         
             
              
                  
